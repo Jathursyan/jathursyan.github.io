@@ -1,0 +1,8 @@
+// overrides a class
+.navbar {
+  font-size: 1.2em;
+  a {padding-right: 4em;}
+  &--paddright {
+    padding-right: 2em;
+  }
+}

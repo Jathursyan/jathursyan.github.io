@@ -1,0 +1,8 @@
+// @import "variable_overrides";   // <-- ajouter cette ligne tout en haut du fichier
+
+// importer tous les fichiers Bootstrap non compiles dans mon projet
+@import "../../tools/bootstrap/scss/bootstrap.scss"
+
+// importer uniquement les fichiers necessaires
+// @import "../node_modules/bootstrap/scss/variables.scss";
+// @import "../node_modules/bootstrap/scss/navbar";

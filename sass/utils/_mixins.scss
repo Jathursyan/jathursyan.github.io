@@ -1,0 +1,15 @@
+@mixin heading {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 0.1em;
+  margin-bottom: 1em;
+}
+
+@mixin removeIconsDefault {
+  .fa-linkedin {color: $colLinkedin};
+  a {text-decoration: none;}
+}
+
+// _resume.scss
+@mixin margin($size-top:0, $size-right:0, $size-bottom:0, $size-left:0) {
+  margin: $size-top $size-right $size-bottom $size-left;
+}

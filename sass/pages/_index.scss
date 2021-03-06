@@ -1,0 +1,35 @@
+// sticky avatar
+.avatar {
+  font-size: 1.2em;
+  &__img {
+    max-width: 175px;
+    border-radius: 50%;
+  }
+  &__heading {
+    @include heading;
+    &--padbottom {
+      padding-bottom: 0.2em;
+    }
+  }
+  &__descr { text-align: justify; }
+  &__icons{
+    padding: 0;
+    list-style: none;
+    line-height: 2;
+    @include removeIconsDefault;
+  }
+
+}
+
+
+// content
+.aboutme {
+  line-height: 2;
+  text-align: justify;
+  &__heading {
+    @include heading;
+  }
+  &__paragrap {
+    font-size: 1.3em;
+  }
+}

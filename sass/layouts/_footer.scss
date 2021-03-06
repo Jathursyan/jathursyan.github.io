@@ -1,0 +1,24 @@
+// footer of page
+.footer {
+  color: lightgray;
+  // position: fixed;
+  
+  bottom: 0;
+  font-size: 1.2em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__icons {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    &__item {
+      padding-right: 2em;
+      text-decoration: none;
+      @include removeIconsDefault;
+    }
+
+  }
+}
