@@ -1,12 +1,19 @@
 // sticky avatar
 .avatar {
   font-size: 1.2em;
+
   &__img {
     max-width: 175px;
     border-radius: 50%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    // width: 50%;
   }
   &__heading {
     @include heading;
+    // text-align: center;
     &--padbottom {
       padding-bottom: 0.2em;
     }
